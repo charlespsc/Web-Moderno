@@ -1,3 +1,5 @@
+//Declaração de Vartiável
+
 var a = 3 // Identificadores "a", procure um bom nome!
 let b = 4 // Também cria uma variável e o let é a forma moderna de declarar uma variável. PREFIRA LET
 
@@ -15,6 +17,10 @@ a = 300
 b = 400
 
 console.log(a, b)
+
+
+
+//Declaração de Constante
 
 const c = 5
 /*c = 50
