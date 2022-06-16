@@ -24,4 +24,4 @@ console.log(cumprimentar(nome2 = 'Carlos'))
 function cumprimentar(nome3) {
     return `Olá, ${nome3}!`
 }
-console.log(cumprimentar(nome3 = 'Maria'))
+console.log(cumprimentar("Maria"))
