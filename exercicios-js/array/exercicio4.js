@@ -44,3 +44,15 @@ console.log(receberNomeDoMes(4)) // retornará "abril"
 console.log(receberNomeDoMes(7)) // retornará "abril"
 console.log(receberNomeDoMes(13)) // retornará "Undefined"
 console.log(receberNomeDoMes(00001)) // retornará "janeiro"
+
+
+// Resolução 2
+
+function receberNomeDoMes(numero){
+    const mapeamento = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+
+    return mapeamento[--numero];
+}
+
+console.log(receberNomeDoMes(0)) // retornará "Undefined" 
+console.log(receberNomeDoMes(12))
