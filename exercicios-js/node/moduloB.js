@@ -1,4 +1,3 @@
-//mais comum
 module.exports = {
     bomDia: 'Bom dia',
     boaNoite() {
