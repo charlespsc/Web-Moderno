@@ -1,5 +1,5 @@
-const moduloA = require('./moduloA')
-const moduloB = require('./moduloB')
+const moduloA = require('./moduloA.js') //Não é necessário colocar a extensão .js
+const moduloB = require('./moduloB.js')
 
 console.log(moduloA.ola)
 console.log(moduloA.bemVindo)
