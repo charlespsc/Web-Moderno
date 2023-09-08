@@ -23,5 +23,7 @@ let temp = a
 a = b
 b = temp
 
+// [a, b] = [b, a] -> também podemos usar assim!
+
 console.log("Valor de A = " + a)
 console.log("Valor de A = " + b)
