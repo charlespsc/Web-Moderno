@@ -5,10 +5,10 @@ console.log('Comentário de Linha');
 
 /* texto entre asteriscos*/
 /*
-Comentário de
-múltiplas linhas
-console.log('Comentário de múltiplas Linhas');
-*/
+ * Comentário de
+ * múltiplas linhas
+ * console.log('Comentário de múltiplas Linhas');
+ */
 console.log('Comentário de múltiplas Linhas');
 
 // console.log é usado para exibir algo na tela do computador
